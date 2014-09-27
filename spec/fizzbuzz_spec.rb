@@ -5,8 +5,8 @@ describe 'Fizzbuzz' do
 	let(:fizzbuzz){Fizzbuzz.new}
 
 context "dividing numbers" do
-	
-		context "knows when a number is divisble by" do
+
+		context "knows when a number is divisible by" do
 
 		it "3" do
 		expect(fizzbuzz.is_divisible_by_3?(3)).to eq(true)
