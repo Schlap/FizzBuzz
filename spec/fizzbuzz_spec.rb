@@ -36,4 +36,15 @@ end
 		expect(fizzbuzz.is_divisible_by_15?(1)).to eq(false)
 		end
 	end
+
+		context "when playing th game" do
+
+		it "returns the number" do 
+		expect(fizzbuzz.fizzbuzz(1)).to eq(1)
+		end	
+
+		it "returns fizz" do
+		expect(fizzbuzz.fizzbuzz(3)).to eq 'FIZZ'
+		end
+	end
 end
