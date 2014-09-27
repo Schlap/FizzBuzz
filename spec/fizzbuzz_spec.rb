@@ -16,7 +16,11 @@ describe 'Fizzbuzz' do
 	expect(fizzbuzz.is_divisible_by_15?(15)).to eq(true)
 	end
 
-	it "is not divisble by 1" do
+	it "knows 3 is not divisble by 1 " do
 	expect(fizzbuzz.is_divisible_by_3?(1)).to eq(false)
+	end
+
+	it "knows 5 is not divisible by 1" do
+	expect(fizzbuzz.is_divisible_by_5?(1)).to eq(false)
 	end
 end
