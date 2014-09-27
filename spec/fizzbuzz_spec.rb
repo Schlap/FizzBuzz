@@ -49,6 +49,10 @@ end
 
 		it "returns buzz if divisible by 5" do
 		expect(fizzbuzz.fizzbuzz(5)).to eq 'BUZZ'
+		end
+
+		it "returns fizzbuzz if divisible by 15" do
+		expect(fizzbuzz.fizzbuzz(15)).to eq 'FIZZBUZZ'
+		end
 	end
-end
 end
