@@ -7,4 +7,8 @@ describe 'Fizzbuzz' do
 	it "is divisible by 3" do
 	expect(fizzbuzz.is_divisible_by_3?(3)).to eq(true)
 	end
+
+	it "it is divisible 5" do
+	expect(fizzbuzz.is_divisible_by_5?(5)).to eq(true)
+	end
 end
