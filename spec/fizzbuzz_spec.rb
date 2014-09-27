@@ -37,7 +37,7 @@ end
 		end
 	end
 
-		context "when playing th game" do
+		context "when playing the game" do
 
 		it "returns the number" do 
 		expect(fizzbuzz.fizzbuzz(1)).to eq(1)
@@ -46,5 +46,9 @@ end
 		it "returns fizz" do
 		expect(fizzbuzz.fizzbuzz(3)).to eq 'FIZZ'
 		end
+
+		it "returns buzz if divisible by 5" do
+		expect(fizzbuzz.fizzbuzz(5)).to eq 'BUZZ'
 	end
+end
 end
